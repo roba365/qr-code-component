@@ -31,7 +31,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-During this project, I strengthened my understanding of centering elements using Flexbox and managing CSS box alignment. I also learned how to handle default browser spacing using global resets, remove redundant margins, and make components responsive using `max-width`.
+During this project, I strengthened my understanding of centering elements using Flexbox and managing CSS box alignment. I also learned how to handle default browser spacing using global resets, make components responsive using `max-width`, and use `rem` units for accessible font scaling.
 
 ```html
 <main class="card">
@@ -41,7 +41,9 @@ During this project, I strengthened my understanding of centering elements using
     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </div>
 </main>
+```
 
+```css
 body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
@@ -61,6 +63,17 @@ body {
   padding: 16px 16px 40px 16px;
   border-radius: 20px;
 }
+
+h1 {
+  font-size: 1.375rem;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+```
 
 ### Continued development
 
